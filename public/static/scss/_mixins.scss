@@ -1,0 +1,11 @@
+@mixin url_style {
+  border-bottom:dotted 1px #acacac;
+  color: #acacac;
+  cursor:pointer;
+  text-decoration:none;
+
+  &:hover, &.active {
+    color:#efefef;
+    border-bottom:dotted 1px #efefef;
+  }
+}

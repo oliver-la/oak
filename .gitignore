@@ -1,0 +1,9 @@
+.idea
+composer.lock
+composer.phar
+cache/*
+vendor/*
+public/uploads/*
+.htaccess
+settings.php
+!.gitkeep
